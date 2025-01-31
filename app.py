@@ -11,7 +11,7 @@ def get_info():
     response = {
         "email": "dunsieman@gmail.com",
         "current_datetime": datetime.utcnow().isoformat() + "Z",
-        "github_url": "https://github.com/Ainsooalgown33?tab=repositories"
+        "github_url": "https://github.com/Ainsooalgown33/API"
     }
     return jsonify(response), 200
 
